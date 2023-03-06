@@ -1,14 +1,16 @@
 body{
   text-align: center;
   font-family: opensans;
+  background-color: #FFFCFA;
+  color: #404040;
 }
 h1.title1{
   font-size: 100px;
-  color: rgb(150, 94, 94);
+  color: #6E4CFF;
 }
 h1.title2{
   font-size: 80px;
-  color: rgb(150, 94, 94);
+  color: #6E4CFF;
 }
 
 h1, h2,h3,h4{
@@ -45,4 +47,11 @@ img{
 @font-face {
   font-family: francois;
   src: url(FrancoisOne-Regular.ttf);
+}
+
+.review{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
 }
