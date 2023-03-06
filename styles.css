@@ -1,11 +1,48 @@
 body{
   text-align: center;
+  font-family: opensans;
 }
 h1.title1{
   font-size: 100px;
   color: rgb(150, 94, 94);
 }
+h1.title2{
+  font-size: 80px;
+  color: rgb(150, 94, 94);
+}
 
+h1, h2,h3,h4{
+  font-family: francois;
+}
+h1{
+  font-size: 70px;
+}
+h3{
+  font-size: 50px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+i{
+  font-family: opensansitalic;
+  font-style: italic;
+}
 img{
   width: 96%;
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: opensansitalic;
+  src: url(OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: francois;
+  src: url(FrancoisOne-Regular.ttf);
 }
