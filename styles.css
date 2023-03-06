@@ -3,6 +3,7 @@ body{
   font-family: opensans;
   background-color: #FFFCFA;
   color: #404040;
+  font-size: 35px;
 }
 h1.title1{
   font-size: 100px;
@@ -21,10 +22,6 @@ h1{
 }
 h3{
   font-size: 50px;
-}
-
-h4{
-  font-size: 30px;
 }
 
 i{
@@ -50,8 +47,14 @@ img{
 }
 
 .review{
-  padding: 20px;
-  border: 1px solid black;
+  padding: 30px;
+  border: 1px solid #6E4CFF;
   border-radius: 20px;
-  margin: 20px;
+  margin: 30px;
+  background-color: #edf249;
+  font-size: 30px;
+}
+
+.review i{
+  font-size: 25px;
 }
